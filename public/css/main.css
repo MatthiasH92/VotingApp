@@ -1,0 +1,64 @@
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    padding-top: 5%;
+    height: 100px;
+    width: 100%;
+}
+
+.content {
+    height: 500px;
+    width: 100%;
+}
+
+.btn {
+    font-size: medium;
+    color: black;
+}
+
+.headline {
+    background-color: lightslategray;
+    height: 5%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.headline-content {
+    padding-top: 11px;
+    padding-left: 10px;
+    width: 100%;
+    float: left;
+}
+
+.headline .btn {
+    background-color: lightslategray;
+    border: none;
+    color: black;
+    font-size: 20px;
+}
+
+.headline .btn:hover {
+    color: white;
+}
+
+.user-buttons {
+    float: right;
+    padding-right: 50px;
+}
+
+button {
+    font-size: medium;
+    color: black;
+    background-color: white;
+    border-radius: 4px;
+    border: 1px solid grey;
+}
+
+button:hover {
+    background-color: cornflowerblue;
+}
